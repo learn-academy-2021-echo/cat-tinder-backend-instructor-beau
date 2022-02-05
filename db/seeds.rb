@@ -35,5 +35,5 @@ cats = [
 ]
 cats.each do |value|
   Cat.create value
-  p "creating the cat attribute #value"
+  p "creating the cat attribute #{value}"
 end
